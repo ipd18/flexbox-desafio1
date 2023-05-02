@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8ebe4;
+
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px grey;
+    background-color: #fff;
+
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 6rem;
+    border: 1px solid #e8ebe4
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 6rem;
+    border: 1px solid #e8ebe4;
+
+}
+
+.thumbnail-tiny-img {
+    width: 2em;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.datos {
+    margin-left: 10px;
+}
+
+.texto1 {
+    font-size: 16px;
+}
+
+.texto2 {
+    font-size: 10px;
+}
+
+.icono {
+    margin-left: 10px;
+
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #a491d2;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 40px 2px;
+    border: 1px solid #e8ebe4
+}
+
+.button:hover {
+    background-color: #cdc3e6;
+}
+
+.button:focus {
+    background-color: #bec1bb;
+}
+
+.thumbnail-norman-img {
+    width: 3em;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main img {
+    width: 16rem;
+    margin-bottom: 1.5rem;
+}
+
+.description {
+    width: 35rem;
+    text-align: center;
+    padding: 0 0.5rem;
+}
+
+.text3 {
+    font-size: 45px;
+}
+
+.text4 {
+    font-size: 14px;
+}
